@@ -1,0 +1,105 @@
+.custom-card {
+  max-width: 100%;
+}
+
+.mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status-info {
+  margin-left: 25px;
+}
+
+.percentage-container {
+  display: inline-block;
+  padding: 8px 16px; /* Adjust padding as needed */
+  border-radius: 20px; /* Adjust border radius to create a round shape */
+  background-color: #34495e; /* Darker background color */
+  color: #fff; /* Text color */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: default; /* Use default cursor to indicate non-clickable */
+}
+
+.percentage-container p {
+  margin: 0; /* Remove default margin */
+}
+
+
+.logo-title-container {
+  margin-left: 25px;
+}
+
+.status {
+  margin-left: auto;
+  background-color: #34495e;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the start (top) */
+  align-items: stretch; /* Stretch items horizontally */
+  height: 100%; /* Ensure the card content takes up full height */
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure row container takes full width */
+}
+
+.history-bar-container {
+  flex: 1;
+  margin-right: 10px; /* Add spacing between history bar and button */
+}
+
+.details-button {
+  /* Optional: Add specific styles for the button */
+}
+
+.status-ok {
+  color: #03dfa2;
+}
+
+.status-unstable {
+  color: #ffb84d;
+}
+
+.status-down {
+  color: #ff0060;
+}
+
+.status-unknown {
+  color: grey;
+}
+
+.report-bug-button {
+  background-color: #ff0060;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.report-bug-button:hover {
+  background-color: #d63026;
+}
+
+.status {
+  margin-left: auto;
+}
+
+

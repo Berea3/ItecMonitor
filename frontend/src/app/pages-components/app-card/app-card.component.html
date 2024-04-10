@@ -1,0 +1,29 @@
+<mat-card class="custom-card">
+  <mat-card-header class="mat-card-header">
+    <div class="left-content">
+      <div class="logo-title-container">
+        <mat-card-title>{{ app.name }}</mat-card-title>
+      </div>
+      <div class="status-info">
+        <div class="percentage-container">
+          <p>Percentage Up: {{ getPercentageUp() }}%</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="status">
+      <mat-card-subtitle [ngClass]="getStatusColorClass()">Status: {{ status }}</mat-card-subtitle>
+    </div>
+    <button class="report-bug-button" (click)="reportBug()">Report a Bug</button>
+  </mat-card-header>
+  <mat-card-content class="card-content">
+    <div class="row-container">
+      <div class="history-bar-container">
+        <app-history-bar [statusString]="app.status"></app-history-bar>
+      </div>
+      <button mat-icon-button class="details-button" (click)="handleCardClick()">
+        <mat-icon>keyboard_arrow_right</mat-icon>
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>

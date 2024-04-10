@@ -1,0 +1,80 @@
+.container {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  padding: 1vh;
+  flex-direction: column;
+  margin:auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-item{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+
+}
+
+.status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 8px 12px; /* Increased padding for better spacing */
+  font-weight: bold; /* Make the font bold for better visibility */
+  color: #ffffff; /* Text color (white) for better contrast */
+  margin-bottom: 15px;
+}
+
+.status-container p{
+  margin: 0;
+  padding: 5px;
+}
+
+.Ok {
+  background-color: #03dfa2;
+}
+
+.Unstable {
+  background-color: #ffb84d;
+}
+
+.Down {
+  background-color: #ff0060;
+}
+
+.bar-container{
+  border-radius: 5px;
+  display: flex;
+  padding: 0 1.5px;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  overflow-x: auto;
+}
+
+.status-info {
+  display:flex;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.percentage-container {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px; /* Adjust padding as needed */
+  border-radius: 20px; /* Adjust border radius to create a round shape */
+  background-color: #34495e; /* Darker background color */
+  color: #fff; /* Text color */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: default; /* Use default cursor to indicate non-clickable */
+}
+
+.percentage-container p {
+  margin-top: 12px;
+  display: flex;
+}
